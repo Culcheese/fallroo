@@ -2,46 +2,74 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177208509-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-177208509-1');
+    </script>
     <meta charset="utf-8">
-    <title>Rekicho</title>
-    <link rel="icon" type="image/png" href="img/me.png" />
+    <title>Fall Guys - Perfect Match</title>
     <link rel="stylesheet" href="style.css">
-    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <div class="parallelogram">
-        <div class="inside">
-            <div class="photo">
-                <img src="img/me.png" alt="A photo of me">
-            </div>
-            <div class="present">
-                <p>
-                    Hello! My name is Bruno Sousa. I'm 21 years old, and I'm currently taking my 5th and final year of
-                    Masters Degree in Informatics and Computing Engineering at FEUP.
-                </p>
-                <p>
-                    Currently, I am working on my Masters' thesis on "Machine Learning for Creating Robotic Soccer
-                    Setplays".
-                </p>
-                <p>
-                    Although I'm interested in almost everything related to Computer Science, my main interests are in
-                    Algorithms & Optimization, Machine Learning, Artificial Intelligence, Data Science, High-Performance
-                    Computing, Software Development and Education.
-                </p>
-                <p>
-                    Feel free to reach out to me using the contacts below:
-                </p>
-                <div class="links">
-                    <a href="https://github.com/Rekicho" class="fab fa-github"></a>
-                    <a href="https://www.linkedin.com/in/rekicho/" class="fab fa-linkedin"></a>
-                    <a href="mailto:brunoratopt9@gmail.com" class="fas fa-envelope"></a>
-                    <a href="tel:+351933783623" class="fas fa-phone"></a>
-                    <a href="cv.pdf" class="fas fa-file-pdf"></a>
-                </div>
-            </div>
+    <div id="fruits">
+        <div class="row">
+            <div class="poring"></div>
+            <div class="dunell"></div>
+            <div class="pig"></div>
+            <div class="lunatic"></div>
+            <div class="baphomet"></div>
+            <div class="rocker"></div>
+			<div class="flame"></div>
         </div>
     </div>
+    <div id="fruitOnMouse" class="followsMouse"></div>
+    <h3>Click to Fill Tile</h3>
+    <h3>Click Filled Tile to Clear</h3>
+    <div id="squares">
+        <div class="row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+			<div></div>
+        </div>
+        <div class="row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+			<div></div>
+        </div>
+        <div class="row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+			<div></div>
+        </div>
+        <div class="row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+			<div></div>
+        </div>
+		<div class="row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+			<div></div>
+        </div>
+    </div>
+    <button type="button">Reset Tiles</button>
 </body>
 
 </html>
